@@ -47,11 +47,17 @@ git clone https://github.com/sumitamin/todo-manager.git
 # From root folder of project go to /client with
 cd client  
 
+# Copy environment variable in frontend
+cp env.example .env
+
 # Install dependencies for frontend
 'yarn install' or 'npm install'  
 
 # Get back to root folder by
 cd ..  
+
+# Copy environment variable in backend
+cp env.example .env
 
 # Install dependencies for backend
 'yarn install' or 'npm install'  
