@@ -4,7 +4,7 @@ Welcome to task manager repo
 Backend is located in / (root)  
 Frontend is located in /client
 
-# packages used in backend
+# Packages used in backend
 bcryptjs - encryt/decrypt user password  
 body-parser - make all incoming request body available under req.body  
 concurrently - run front end and back end concurrently in one command  
@@ -15,7 +15,7 @@ jsonwebtoken - assign token for each user and make token based api
 mongoose - connect to mongodb  
 nodemon - restart node on save  
 
-# packages used in frontend
+# Packages used in frontend
 @material-ui/core - ui package  
 @material-ui/icons - ui icon  
 @material-ui/lab - ui package  
@@ -39,27 +39,27 @@ redux-saga - middleware for redux, to perform all necessary task to save/update 
 credential and keys are saved in .env file.  
 connection string to mongodb is represented by dbUrl in, change it to yours if necessary  
 
-# sets to set up project
+# Steps to set up project
 install latest node LTS  
 install npm or yarn globally  
-git clone  
+git clone https://github.com/sumitamin/todo-manager.git
 
 # From root folder of project go to /client with
 cd client  
 
-# install dependencies for frontend
+# Install dependencies for frontend
 'yarn install' or 'npm install'  
 
-# get back to root folder by
+# Get back to root folder by
 cd ..  
 
-# install dependencies for backend
+# Install dependencies for backend
 'yarn install' or 'npm install'  
 
-# run project
+# Run project
 'npm run dev' or 'yarn run dev'  
 
-# project flow
+# Project flow
 login or sign up to log into application  
 add task of your choice  
 delete/ edit or archive task   
