@@ -1,0 +1,15 @@
+.rc-draggable-list-draggableRow{
+    display: flex;
+    margin: 0 20px;
+}
+.rc-draggable-list-handles{
+    display: flex;
+    align-items: center;
+}
+.MuiTableRow-root{
+    justify-content: space-between;
+    width: 100%;
+}
+.MuiContainer-maxWidthSm{
+    max-width: 800px !important;
+}
