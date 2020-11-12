@@ -1,11 +1,11 @@
 Welcome to task manager repo
 
 # Directory information
-Backend is located in / (root)
+Backend is located in / (root)  
 Frontend is located in /client
 
 # packages used in backend
-#bcryptjs - encryt/decrypt user password
+#bcryptjs - encryt/decrypt user password  
 #body-parser - make all incoming request body available under req.body
 #concurrently - run front end and back end concurrently in one command 
 #cors - to allow request from another origin 
