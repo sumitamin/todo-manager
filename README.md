@@ -1,5 +1,8 @@
-# Backend is located in /
-# Frontend is located in /client
+Welcome to task manager repo
+
+# Directory information
+Backend is located in / (root)
+Frontend is located in /client
 
 # packages used in backend
 bcryptjs - encryt/decrypt user password
@@ -33,28 +36,28 @@ redux-logger - consoles each action call for redux, helps in debugging
 redux-saga - middleware for redux, to perform all necessary task to save/update redux
 
 # .env file
-# credential and keys are saved in .env file
-# connection string to mongodb is represented by dbUrl in, change it to yours if necessary
+credential and keys are saved in .env file
+connection string to mongodb is represented by dbUrl in, change it to yours if necessary
 
 # sets to set up project
 install latest node LTS
 install npm or yarn globally
 git clone
 
-From root folder of project go to /client with
-# cd client
+# From root folder of project go to /client with
+cd client
 
-install dependencies for frontend
-# run -> 'yarn install' or 'npm install'
+# install dependencies for frontend
+'yarn install' or 'npm install'
 
-get back to root folder by
-# cd ..
+#get back to root folder by
+cd ..
 
-install dependencies for backend
-# 'yarn install' or 'npm install'
+# install dependencies for backend
+'yarn install' or 'npm install'
 
-run project
-# 'npm run dev' or 'yarn run dev'
+# run project
+'npm run dev' or 'yarn run dev'
 
 # project flow
 login or sign up to log into application
